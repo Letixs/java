@@ -7,7 +7,7 @@ public class Aula01 {
 
 	public static void main(String[] args) {
 		
-		DecimalFormat df = new DecimalFormat("###,###,##0.00");
+		DecimalFormat df = new DecimalFormat("#0.00");
 		Scanner leia = new Scanner(System.in);
 		
 		double numero1, numero2;
