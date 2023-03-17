@@ -21,18 +21,12 @@ public class Exercicio1If {
 		
 		int soma = a + b;
 	
-		if (soma > c) {
-			System.out.println("\n" + a + "+" + b + "=" + soma + ">" + c);
+		if (soma > c) 
 			System.out.println("A soma de A + B é maior do que C");
-		}
-		if (soma < c) {
-			System.out.println("\n" + a + "+" + b + "=" + soma + "<" + c);
+		if (soma < c) 
 			System.out.println("A soma de A + B é menor do que C");
-		}
-		if (soma == c) {
-			System.out.println("\n" + a + "+" + b + "=" + soma + "=" + c);
+		if (soma == c) 
 			System.out.println("A soma de A + B é igual a C");
-		}
 		
 		leia.close();
 	}

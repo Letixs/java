@@ -19,16 +19,11 @@ public class Exercicio3If {
 		System.out.println("Digite a idade do doador: ");
 		
 		do {
-			try {
 				
 				idade = Integer.parseInt(leia.nextLine());
 				if(idade < 0 || idade > 110)
-					System.out.println("Bota a idade certa");
-			} catch (Exception e) {
-				// TODO: handle exception
-				//e.printStackTrace();
-				System.out.println("Bote a idade certa!");
-			}
+					System.out.println("Informe uma idade válida!");
+			
 		} while (idade < 0 || idade > 110);		
 		
 		System.out.println("Primeira doação de sangue? (S/N) ");
