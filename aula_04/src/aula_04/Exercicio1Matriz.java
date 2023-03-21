@@ -36,11 +36,11 @@ public class Exercicio1Matriz {
 		
 		System.out.println("Elementos da Diagonal Principal: " + diagonalP);
 
-		System.out.println("\n\nElementos da Diagonal Secundária: " + diagonalS);
+		System.out.println("Elementos da Diagonal Secundária: " + diagonalS);
 	
-		System.out.println("\n\nSoma de todos Elementos da Diagonal Principal: " + somaP);
+		System.out.println("Soma de todos Elementos da Diagonal Principal: " + somaP);
 
-		System.out.println("\n\nSoma de todos Elementos da Diagonal Secundária: " + somaS);
+		System.out.println("Soma de todos Elementos da Diagonal Secundária: " + somaS);
 		
 		scanner.close();
 		
