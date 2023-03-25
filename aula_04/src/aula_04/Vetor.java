@@ -17,7 +17,7 @@ public class Vetor {
 		
 		System.out.println("Tamanho do vetor: " +  vetorFloat.length);
 		
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um número:  ");
 		numero = leia.nextInt();
 		
 		for (int contador = 0; contador < vetorInteiros.length; contador ++) {

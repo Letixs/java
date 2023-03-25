@@ -14,7 +14,7 @@ public class Exercicio1CollectionSet {
 		Set<Integer> num = new HashSet<Integer>();
 		
 		for(int i = 0; i < 10; i++) {
-			System.out.println("Digite um número: ");
+			System.out.println("Digite um número:  ");
 			num.add(scanner.nextInt());	
 		}
 		
