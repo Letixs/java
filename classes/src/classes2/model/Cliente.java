@@ -1,16 +1,16 @@
-package classes2;
+package classes2.model;
 
 public class Cliente {
 	
 	private String nome;
-	private String cpf;
+	private String email;
 	private String telefone;
 	private String cep;
 	private int numCadastro;
 
-	public Cliente(String nome, String cpf, String telefone, String cep, int numCadastro) {
+	public Cliente(String nome, String email, String telefone, String cep, int numCadastro) {
 		this.nome = nome;
-		this.cpf = cpf;
+		this.email = email;
 		this.telefone = telefone;
 		this.cep = cep;
 		this.numCadastro = numCadastro;
@@ -24,12 +24,12 @@ public class Cliente {
 		this.nome = nome;
 	}
 
-	public String getCpf() {
-		return cpf;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getTelefone() {
@@ -60,10 +60,10 @@ public class Cliente {
 		
 		System.out.println("\n     INFORMAÇÕES CLIENTE\n");
 		System.out.println("Nome do cliente: " + this.nome);
-		System.out.println("Nome do cliente: " + this.cpf);
-		System.out.println("Nome do cliente: " + this.telefone);
-		System.out.println("Nome do cliente: " + this.cep);
-		System.out.println("Nome do cliente: " + this.numCadastro);
+		System.out.println("Email do cliente: " + this.email);
+		System.out.println("Telefone do cliente: " + this.telefone);
+		System.out.println("CEP do cliente: " + this.cep);
+		System.out.println("Número de cadastro do cliente: " + this.numCadastro);
 
 	}
 	
